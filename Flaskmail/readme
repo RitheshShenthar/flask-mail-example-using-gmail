@@ -1,0 +1,24 @@
+Requirements
+=============
+This program requires the installation of 'Flask' and 'flask-mail' packages.
+It has been tested using Flask 0.10.1 and flask-mail 0.9.1.
+
+If you are using Gmail, the first time this program is run, the user will need to login to Gmail and check if Gmail has an alert for sending automated
+messages through it. By default, Gmail does not allow machines to send messages through it. This security feature will need to be disabled for this feature to work.
+
+Variables needed to be configured
+==================================
+<Gmail id without the @gmail.com extension>
+<Password of Gmail id>
+<Sender Gmail id>
+<Receiver Gmail id>
+
+Format of replacing above variables is to replace everything including <> with the appropriate string.
+
+Testing
+=========
+Since this is a simple program, its been tested on a Windows7 PC and run using PyCharm's in built hosting on 127.0.0.1:5000.
+
+Author
+======
+Rithesh Shenthar.
